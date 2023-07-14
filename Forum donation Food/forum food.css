@@ -1,0 +1,122 @@
+body{
+    width: 1280px;
+    height: 1960px;
+    margin: 0 ;
+    background-image: url(./donation\ food.jpg);
+    box-sizing: border-box;
+}
+
+img{
+    position: absolute;
+}
+
+
+
+p{
+    font-size: 50pt;
+    color: white;
+    text-align: left;
+    line-height: 1px;
+    margin-left: 160px;
+
+}
+
+
+p1{
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+    margin-left: 160px;
+}
+p2{
+    font-size: 20pt;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+p3{
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    margin-left: 160px;
+    padding-bottom: 30px;
+}
+
+p11{
+    font-size: 20pt;
+}
+
+p31{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    margin-bottom: 30px;
+
+    font-size: 20pt;
+}
+
+p30{
+    margin-bottom: 60px;
+    margin-left: 350px;
+    text-align: center;
+    font-size: 30pt;
+}
+
+header101 {
+    width: 1300px;
+    height: 100px;
+    background: #bb0038;
+    display: flex;
+   
+} 
+
+h1{
+    position: absolute;  
+    margin-top: 25px;
+    margin-left: 90px ;
+    color :aliceblue;
+
+}
+
+
+.user-detail{
+    padding-top: 100px;
+    padding-left: 80px; 
+
+}
+
+.user-detail  .WhiteBg {
+    margin-left: 50px;
+    margin-right: 120px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    border: solid white;
+    color: white;
+    border-radius: 30px;
+    background-color: rgba(8, 8, 8, 0.493);
+}
+
+.type .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.type .category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+    
+.type .category label .type{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+  
+} 

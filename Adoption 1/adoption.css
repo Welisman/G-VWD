@@ -1,0 +1,190 @@
+body {
+    width: 1280px;
+    height: 1860px;
+    margin: 0 auto;
+    background-image: url(../all_assets/pauline-loroy-U3aF7hgUSrk-unsplash\ 1.png);
+  }
+  
+  .rectangle1 {
+    width: 1280px;
+    height: 100px;
+    background: #a40062;
+  }
+  
+  .atas {
+      color: white;
+      font-size: 30px;
+      line-height: 100px;
+      display: flex;
+      margin-left: 40px;
+    }
+    
+    #profil {
+      line-height: 95px;
+      margin-left: 950px;
+    }
+  
+    .cat {
+      width: 30px;
+      height: 35px;
+      line-height: 95px;
+      margin-right: 10px;
+    }
+  
+    #cat {
+      transform: skew(20deg);
+      margin-right: 15px;
+    }
+    
+    .help {
+      display: flex;
+      font-size: 25px;
+      margin-top: 100px;
+      margin-left: 80px;
+      color: white;
+    }
+  
+    .dog {
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    .foto {
+        margin-top: 60px;
+        position: absolute;
+    }
+    
+    #pitbull {
+      width: 800px;
+      height: 650px;
+    }
+    .border {
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 520px;
+        height: 450px;
+        margin-left: 620px;
+        margin-top: 150px;
+    }
+
+    .desk{
+        margin-left: 40px;
+        font-size: 35px;
+        margin-top: 20px;
+        color: white;
+    }
+    
+    li {
+        font-size: 25px;
+        color: white;
+        margin-left: 40px;
+    }
+    
+    ul{
+        margin-left: 20px;
+        font-size: 25px;
+        color: white;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #adopt {
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 360px;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 70px;
+    }
+
+    button{
+      padding: 20px;
+    }
+    
+    .pt{
+      margin-top: -10px;
+      position: absolute;
+      margin-left: -25px;
+    }
+
+    .border1 {
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 520px;
+        height: 450px;
+        margin-top: 300px;
+        margin-left: 140px;
+    }
+    
+    .foto1 {
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 480px;
+        transform: rotate(4deg);
+    }
+
+    #foto1 {
+      width: 800px;
+      height: 650px;
+    }
+  
+    .desk1 {
+        margin-right: 20px;
+        font-size: 35px;
+        margin-top: 50px;
+        margin-left: 20px;
+        color: white;
+    }
+
+    #adopt2 {
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 120px;
+        line-height: -10px;
+    }
+
+    .pt2{
+      margin-top: -12px;
+      position: absolute;
+      margin-left: -25px;
+    }
+
+    #adopt3 {
+        width: 250px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        line-height: -10px;
+        margin-top: 180px;
+        margin-left: 140px;
+    }
+
+    .pt3 {
+      margin-top: -12px;
+      position: absolute;
+      margin-left: -80px;
+    }
+
+    #adopt4 {
+        width: 250px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        line-height: -10px;
+        justify-content: center;
+        float: right;
+        margin-top: 180px;
+        margin-right: 150px;
+    }

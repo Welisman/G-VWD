@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ask For Help</title>
+    <link rel="stylesheet" href="./form.css">
+    
+</head>
+<header101>
+    <div class="rectangle1">
+        <img src="./Logo HFP.png" alt ="Logo" width="120" height="90">
+    </div>
+    <div class="tittle">
+        <h1>Home For Paws </h1>
+    </div>
+</header101>
+<body>
+    <div class="box">
+        <div class="container">
+             
+                <div class="captions">
+                    <p >
+                        
+                        ASK FOR <b>HELP!</b>
+                        
+                    </p>
+                    <br>
+                    <p1>
+                        Please fill up the form to receive further assist
+                    </p1>
+                    <br>
+                    <p2>
+                        From
+                    </p2>
+                    <br>
+                    <p3>
+                        <b>Home For Paws</b>
+                    </p3>
+                    
+                </div>
+                <div class="user-detail">
+                    <div class="whiteBg">
+                        <div class="input-box">
+                            <header><b>Name</b></header>
+                            <div class="kotak1">
+                                <input type="text" placeholder="Please fill in your name.." required 
+                                style="width: 800px; height: 40px; border-radius: 10px; 
+                                padding-left: 10px;border-color: white;">
+                            </div>
+                            
+                        </div>
+                        <div class="input-box2">
+                            <header><b>Contact</b> </header>
+                            <div class="kotak2">
+                                <input type="text" placeholder="Please fill in your contact.." required 
+                                style="width: 800px; height: 40px; border-radius: 10px; 
+                                padding-left: 10px; border-color: white;">
+                            </div>
+                            
+                        </div>
+         
+                        <div class="Conditon">
+                            <header1><b>Animal's Conditon</b></header1>
+                            <br>
+                            <p5 style="font-size: 15pt;">tap the dots that describes the  animal's condition</p5>
+                            <br>
+                            <br>
+                            <input type="checkbox" name="ac" id="box-1" style="width: 20px; height: 20px;padding-top: 30px; padding-bottom: 30px;"><label0 style="padding-right: 30px; padding-left: 20px; font-size: 20pt;">internal Injuries</label0>
+                            <input type="checkbox" name="ac" id="box-2"  style="width: 20px; height: 20px;padding-top: 30px; padding-bottom: 30px;"><label0 style="padding-right: 30px; padding-left: 20px; font-size: 20pt;">Wounds</label0>
+                            <input type="checkbox" name="ac" id="box-3"  style="width: 20px; height: 20px;padding-top: 30px; padding-bottom: 30px;"><label0 style="padding-right: 30px; padding-left: 20px; font-size: 20pt;">Emotional  Abuse</label0>
+                            <input type="checkbox" name="ac" id="box-4" style="width: 20px; height: 20px;padding-top: 30px; padding-bottom: 30px;"><label0 style="padding-right: 30px; padding-left: 20px; font-size: 20pt;">Flees</label0>
+
+                        </div>
+                        <div class="type">
+                            <header style="font-size: 30pt;padding-bottom: 20px;padding-top: 20px;"><b>Animal's Type</b></header>
+                            <div class="type-options">
+                                <script>
+                                    function toggleCheckbox(checkbox) {
+                                      var checkboxes = document.getElementsByName('option');
+                                      for (var i = 0; i < checkboxes.length; i++) {
+                                        checkboxes[i].checked = false;
+                                      }
+                                      checkbox.checked = true;
+                                    }
+                                  </script>
+                                      <input type="checkbox" name="option" onclick="toggleCheckbox(this)" style="width: 20px; 
+                                      height: 20px;padding-top: 30px; padding-bottom: 30px;margin-bottom: 20px " >
+                                      <label0 style="padding-left: 30px;padding-right: 130px;">Dog</label0>
+                                      
+    
+                                    
+                                    
+                                      <input type="checkbox" name="option" onclick="toggleCheckbox(this)" style="width: 20px; 
+                                      height: 20px;padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px" >
+                                      <label0 style="padding-left: 30px;padding-right: 130px;">Cat</label0>
+                                    
+                                    
+                                    
+                                      <input type="checkbox" name="option" onclick="toggleCheckbox(this)" style="width: 20px; 
+                                      height: 20px;padding-top: 30px; "><label style="padding-left: 30px;" >
+                                      <label0 style="padding-left: 30px;padding-right: 130px;margin-bottom: 20px;">Other pets</label0>
+                    
+                            </div>
+                            <div class="header09">
+                                <header>
+                                    <b>Animal's Picture Attachment</b>
+                                </header>
+                                <p6 style="color: rgba(255, 255, 255, 0.562); font-size: 20pt;">
+                                    (All File, Max 100MB)
+                                </p6>
+                            </div>
+                            <div class="upload">
+                                <p7>V Upload Your File Here</p7>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                   
+                     
+           
+        </div>
+        <div class = "button">
+            <input type="submit" class="submit" value="Done !" style="width: 60px;
+            border-radius: 15px;
+            margin-left: 940px;
+            width: 200px;
+            height: 50px;
+            margin-top: 10px;
+            border-color: white;
+             position: absolute;">
+            
+            <input type="submit" class="submit" value=" Back To Homepage" style="width: 60px;
+            border-radius: 15px;margin-left: 150px; width: 200px; height: 50px;
+            margin-top: 10px;border-color: white;">
+
+            
+        </div> 
+
+    </div>
+    
+</body>
+</html>

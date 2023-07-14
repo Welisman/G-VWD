@@ -1,0 +1,64 @@
+body {
+  width: 1280px;
+  height: 1860px;
+  margin: 0 auto;
+  background-image: url(./Assets/hannah-lim-U6nlG0Y5sfs-unsplash\ 1.png);
+}
+
+.rectangle1 {
+  width: 1280px;
+  height: 100px;
+  background: #a40062;
+  position: absolute;
+}
+
+.atas {
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    display: flex;
+    margin-left: 40px;
+  }
+  
+  #profil {
+    line-height: 95px;
+    margin-left: 950px;
+  }
+
+  .cat {
+    width: 30px;
+    height: 35px;
+    line-height: 95px;
+    margin-right: 10px;
+  }
+
+  #cat {
+    transform: skew(20deg);
+    margin-right: 15px;
+  }
+  
+  .help {
+    display: flex;
+    font-size: 25px;
+  }
+
+  #back {
+    margin-left: 1000px;
+    margin-top: 30px;
+    height: 20px;
+  }
+
+  .fill  {
+    display: flex;
+    font-size: 25px;
+    margin-top: -30px;
+  }
+
+  .assist  {
+    display: flex;
+    font-size: 25px;
+  }
+
+  .home {
+    font: bold;
+  }
